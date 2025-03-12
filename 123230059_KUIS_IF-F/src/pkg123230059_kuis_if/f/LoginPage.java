@@ -60,7 +60,7 @@ public class LoginPage extends JFrame implements ActionListener{
                 String username = this.unameField.getText();
                 char[] password = this.passwordField.getPassword();
                 String pass = new String(password);
-                if (username.equals("1") && pass.equals("1")) {
+                if (username.equals("Bintoro") && pass.equals("123230059")) {
                     new HalamanUtama(username);
                     dispose();
                 }else{
